@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HoverBot
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Bottom
+    m_Weight: 0
+  - m_Path: EyeBall
+    m_Weight: 0
+  - m_Path: Robot_Root_C_Jnt
+    m_Weight: 0
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Bot_Cap_C_Jnt
+    m_Weight: 0
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Bot_Cap_C_Jnt/Bot_L_Wing01_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Bot_Cap_C_Jnt/Bot_L_Wing01_Jnt/Bot_L_Wing02_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Bot_Cap_C_Jnt/Bot_L_Wing01_Jnt/Bot_L_Wing02_Jnt/Bot_L_Wing03_Jnt_End
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Bot_Cap_C_Jnt/Bot_R_Wing01_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Bot_Cap_C_Jnt/Bot_R_Wing01_Jnt/Bot_R_Wing02_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Bot_Cap_C_Jnt/Bot_R_Wing01_Jnt/Bot_R_Wing02_Jnt/Bot_R_Wing03_Jnt_End
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/EyeBall_C_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/EyeBall_C_Jnt/IrisBlade_C_Jnt
+    m_Weight: 0
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Top_Cap_C_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Top_Cap_C_Jnt/Front_Panel_C_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Top_Cap_C_Jnt/Front_Panel_C_Jnt/Front_Panel_C_Jnt_End
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Top_Cap_C_Jnt/Top_L_Ear01_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Top_Cap_C_Jnt/Top_L_Ear01_Jnt/Top_L_Ear02_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Top_Cap_C_Jnt/Top_R_Ear01_Jnt
+    m_Weight: 1
+  - m_Path: Robot_Root_C_Jnt/Robot_FKRoot_C_Jnt/Top_Cap_C_Jnt/Top_R_Ear01_Jnt/Top_R_Ear02_Jnt
+    m_Weight: 1
+  - m_Path: Top
+    m_Weight: 0

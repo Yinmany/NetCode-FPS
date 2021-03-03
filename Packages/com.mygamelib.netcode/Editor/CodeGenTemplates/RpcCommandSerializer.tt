@@ -1,0 +1,55 @@
+<#@ include file="CommonHeader.tt"#>
+<#@ parameter name="m" type="MyGameLib.NetCode.Editor.CommonT4Info"#>
+
+using AOT;
+using Unity.Burst;
+using Unity.Networking.Transport;
+using MyGameLib.NetCode;
+using <#=m.CurNamespace #>;
+
+namespace <#=m.ToNamespace #>.Generated
+{
+    [BurstCompile]
+    public struct <#=m.TypeName #>Serializer : IRpcCommandSerializer<<#=m.TypeName #>>
+    {
+        public void Serialize(ref DataStreamWriter writer, in <#=m.TypeName #> data)
+        {
+<#
+    foreach (var field in m.Fields)
+    {
+        WriteLine3($"writer.Write{field.TypeName1}(data.{field.Name});");
+    }
+#>
+        }
+
+        public void Deserialize(ref DataStreamReader reader, ref <#=m.TypeName #> data)
+        {
+<#
+    foreach (var field in  m.Fields)
+    {
+        WriteLine3($"data.{field.Name} = reader.Read{field.TypeName1}();");
+    }
+#>
+        }
+
+        [BurstCompile]
+        [MonoPInvokeCallback(typeof(RpcExecutor.ExecuteDelegate))]
+        private static void InvokeExecute(ref RpcExecutor.Parameters parameters)
+        {
+            RpcExecutor.ExecuteCreateRequestComponent<<#=m.TypeName #>Serializer, <#=m.TypeName #>>(
+                ref parameters);
+        }
+
+        static PortableFunctionPointer<RpcExecutor.ExecuteDelegate> InvokeExecuteFunctionPointer =
+            new PortableFunctionPointer<RpcExecutor.ExecuteDelegate>(InvokeExecute);
+
+        public PortableFunctionPointer<RpcExecutor.ExecuteDelegate> CompileExecute()
+        {
+            return InvokeExecuteFunctionPointer;
+        }
+    }
+
+    public class <#=m.TypeName #>RequestSystem : RpcCommandRequestSystem<<#=m.TypeName #>Serializer, <#=m.TypeName #>>
+    {
+    }
+}

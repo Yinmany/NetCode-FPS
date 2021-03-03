@@ -1,0 +1,13 @@
+<#@ template language="C#" #>
+<#@ assembly name="$(SolutionDir)\Library\ScriptAssemblies\MyGameLib.NetCode.Editor.dll" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="MyGameLib.NetCode.Editor" #>
+<#+
+    public const string T3 = "\t\t\t";
+
+    private void WriteLine3(string s)
+    {
+        WriteLine(T3 + s);
+    }
+#>

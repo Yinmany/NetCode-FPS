@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: Tutorials
+  m_EditorClassIdentifier: 
+  headerBackground: {fileID: 2800000, guid: 5384282a0273144fa9333beb77183cb4, type: 3}
+  title: Your First 6 Steps to Creating a Game
+  projectName: FPS
+  description: Start building your first game now. Have fun clicking through these
+    6 helpful steps and you will have the foundation to modifying your first game
+    in less than 30 minutes.
+  projectLayout: {fileID: 102900000, guid: 9d6f44592b6054254899886ee83841f8, type: 3}
+  sections:
+  - orderInView: 0
+    heading: Playtest
+    text: Make a simple change and playtest your game.
+    linkText: 
+    url: 
+    authorizedUrl: 0
+    buttonText: Let's go
+    tutorial: {fileID: 11400000, guid: 51a83f21771aa4bb4b864e90bc79aeab, type: 2}
+    image: {fileID: 2800000, guid: dea29fde4b88b4c0e9d8370e83020c06, type: 3}
+    completedImage: {fileID: 2800000, guid: 11a8e34ea358c4b8885176f936317cc6, type: 3}
+  - orderInView: 2
+    heading: Add a Room
+    text: Build a level to master navigating in the Editor.
+    linkText: 
+    url: 
+    authorizedUrl: 0
+    buttonText: Show Me
+    tutorial: {fileID: 11400000, guid: 97ff54290d4d54a86b2e22ed724ab843, type: 2}
+    image: {fileID: 2800000, guid: ad9f1234d3a9046e99a56e1aa0f6ff42, type: 3}
+    completedImage: {fileID: 2800000, guid: 8a456994a80234fd2863df4d7e29e6b0, type: 3}
+  - orderInView: 4
+    heading: Edit Colors
+    text: Learn how to change the color of a game object.
+    linkText: 
+    url: 
+    authorizedUrl: 0
+    buttonText: Let's Color
+    tutorial: {fileID: 11400000, guid: 5d0306ad1c1d347ed8eb91190a9e45c2, type: 2}
+    image: {fileID: 2800000, guid: 02e1aaacc31014d1f8d4ed2397a5b4c1, type: 3}
+    completedImage: {fileID: 2800000, guid: 6390f201c83c6463198f231e70f96148, type: 3}
+  - orderInView: 6
+    heading: Add Enemy Bot
+    text: Learn how to add an enemy bot to your game.
+    linkText: 
+    url: 
+    authorizedUrl: 0
+    buttonText: Let's Add
+    tutorial: {fileID: 11400000, guid: f1296c995c6fc4bcfac81bd7df3e5b18, type: 2}
+    image: {fileID: 2800000, guid: eb963beb4801244aeb9441dfa39555c1, type: 3}
+    completedImage: {fileID: 2800000, guid: 780f3b3e549e6432b8439c5b6d8542cf, type: 3}
+  - orderInView: 8
+    heading: Build and Share
+    text: Create a build of your game and share it to the web.
+    linkText: 
+    url: 
+    authorizedUrl: 0
+    buttonText: Let's Build
+    tutorial: {fileID: 11400000, guid: 104eb83d5abda4eeab1d87301948b48d, type: 2}
+    image: {fileID: 2800000, guid: a63863a2af95b4774bf1392c24952242, type: 3}
+    completedImage: {fileID: 2800000, guid: 386ad4dcd15bf45459f96ff08a55be45, type: 3}
+  - orderInView: 10
+    heading: Supercharge Your Game
+    text: Get a bundle of premium assets to build out your game.
+    linkText: Asset Store
+    url: https://assetstore.unity.com/browse/fps-creator-bundle
+    authorizedUrl: 1
+    buttonText: 
+    tutorial: {fileID: 0}
+    image: {fileID: 2800000, guid: f6b78880543bf4e91bd85801abd1ab8d, type: 3}
+    completedImage: {fileID: 2800000, guid: f6b78880543bf4e91bd85801abd1ab8d, type: 3}
+  - orderInView: 12
+    heading: Modding Tutorials
+    text: Design your own levels, customize weapons, add loot items, and more.
+    linkText: Mods
+    url: https://learn.unity.com/project/fps-template
+    authorizedUrl: 1
+    buttonText: 
+    tutorial: {fileID: 0}
+    image: {fileID: 2800000, guid: c418c9a48b9984a8f9e89a7b0f6bdf9e, type: 3}
+    completedImage: {fileID: 2800000, guid: c418c9a48b9984a8f9e89a7b0f6bdf9e, type: 3}
+  - orderInView: 14
+    heading: FPS Creators Group
+    text: Join other FPS Creators in this online community group.
+    linkText: Creators Group
+    url: https://connect.unity.com/g/fps-creators
+    authorizedUrl: 1
+    buttonText: 
+    tutorial: {fileID: 0}
+    image: {fileID: 2800000, guid: c418c9a48b9984a8f9e89a7b0f6bdf9e, type: 3}
+    completedImage: {fileID: 2800000, guid: c418c9a48b9984a8f9e89a7b0f6bdf9e, type: 3}

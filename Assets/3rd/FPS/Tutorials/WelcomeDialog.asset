@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0885f594ab85594caa28e1a96cbe0d8, type: 3}
+  m_Name: WelcomeDialog
+  m_EditorClassIdentifier: 
+  m_Icon: {fileID: 2800000, guid: 4c7cbe18ed8044725bafa532fbd5ec8e, type: 3}
+  m_Title: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 0
+      m_Summary: 
+      m_Text: "<size=26><b>Get Started with Unity</b></size>\x03\x03\n\n<size=14><color=grey><b>FPS
+        MICRO-GAME</b></color></size>\x03\x03\n\n\n<size=14>Are you ready to make
+        your very own version of this FPS micro-game?  \n\nTo help you along the way,
+        this project contains interactive tutorials that will teach you about the
+        basics of the Unity Engine.</size>"
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+    - m_Type: 0
+      m_Summary: 
+      m_Text: '<size=14>You can access the Tutorials window any time from the Unity
+        <b>main menu</b>:
+
+
+        <b>Tutorials</b><color=grey> > </color> <b>Show Tutorials</b></size>
+
+'
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 0
+        m_UnmaskedViews: []
+  m_StartButtonLabel: Get Started
+  m_FinishButtonLabel: Go to the next tutorial

@@ -1,0 +1,24 @@
+{
+    "name": "MyGameLib.NetCode",
+    "references": [
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:8819f35a0fc84499b990e90a4ca1911f",
+        "GUID:f2d49d9fa7e7eb3418e39723a7d3b92f",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:e00140a815de944528348782854abe39",
+        "GUID:63afb046c8423dd448ae7aba042ea63d",
+        "GUID:44dcb2bf5b9be4b5aa76674c8edcd1d5",
+        "GUID:a5baed0c9693541a5bd947d336ec7659"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

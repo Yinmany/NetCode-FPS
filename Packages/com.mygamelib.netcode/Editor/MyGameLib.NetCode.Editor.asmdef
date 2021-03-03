@@ -1,0 +1,28 @@
+{
+    "name": "MyGameLib.NetCode.Editor",
+    "references": [
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:1218f9e8e4be35a4fa985258dbadbaa4",
+        "GUID:363a3288c06c1c14cbbeedbda31215f9",
+        "GUID:416d137b1126dbf408443d029c73482a",
+        "GUID:3348cdac4e8a3c94baf775a68592a2a0",
+        "GUID:807be9350277eff4182cd3600de41d3a",
+        "GUID:8819f35a0fc84499b990e90a4ca1911f",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:65e938176ee9e51499c99b90b9d2aeb7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Mono.Cecil.dll",
+        "Mono.Cecil.Pdb.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

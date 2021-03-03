@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
+  m_Name: Walkthrough3
+  m_EditorClassIdentifier: 
+  m_TutorialTitle: Editor UI
+  m_LessonId: 48144
+  m_Version: 0
+  m_Scene: {fileID: 102900000, guid: d794a2ef8ba31d847ad3c19d03e2ddb9, type: 3}
+  m_DefaultSceneCameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  m_ExitBehavior: 1
+  m_SkipTutorialBehavior: 0
+  m_AssetSelectedOnExit: {fileID: 11400000, guid: 977fb762f450240fd9006b8153a0f534,
+    type: 2}
+  m_WelcomePage: {fileID: 0}
+  m_CompletedPage: {fileID: 0}
+  IsWelcomingPageShowing: 1
+  IsCompletedPageShowing: 0
+  m_Pages:
+    m_Items:
+    - {fileID: 11400000, guid: fef67ab638dae4a14a5508ea356cddc1, type: 2}
+    - {fileID: 11400000, guid: 13109c3c5779a483288f8fa77ffbcbd5, type: 2}
+    - {fileID: 11400000, guid: 900124fb13aba4ef4bf556c0f782d127, type: 2}
+    - {fileID: 11400000, guid: 08664b222211f4218bcf3356bf7bae3e, type: 2}
+    - {fileID: 11400000, guid: f16e81aa0b771435bbff4b88af6cc7ff, type: 2}
+    - {fileID: 11400000, guid: a2e36b4c574d748b99f00191d18a7deb, type: 2}
+    - {fileID: 11400000, guid: 7c6f54a327e8a4511a8368e0970d4500, type: 2}
+    - {fileID: 11400000, guid: 65d0554394084485a9e7729341c9908b, type: 2}
+    - {fileID: 11400000, guid: c83a4ddcf9c7a489cb25b31f69c78791, type: 2}
+    - {fileID: 11400000, guid: c323247eb512d4591a20a443736c7123, type: 2}
+    - {fileID: 11400000, guid: 77cdde24ac2e841e8b74f2789993afd5, type: 2}
+    - {fileID: 11400000, guid: b66fba7b40ebe47f98c17a45b123e121, type: 2}
+    - {fileID: 11400000, guid: e3dc744887c6e4362a59a5f0c10b2035, type: 2}
+  m_WindowLayout: {fileID: 102900000, guid: 969d22b170a8a449d99ed26d083a8e78, type: 3}

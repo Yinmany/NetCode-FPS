@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Walkthrough5-005
+  m_EditorClassIdentifier: 
+  m_SectionTitle: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 6
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 2800000, guid: 7047302abcab8496488f93b3f766350d, type: 3}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews: []
+    - m_Type: 0
+      m_Summary: 
+      m_Text: "<b><size=16>Build and Share</size></b>\n\x03\x03\n<b><size=11><color=\"grey\">TUTORIAL</color></size></b>\n\nCongratulations!
+        You are about to build your project into an actual game that your friends
+        and family can play on your very own dedicated webpage. \n\nThe process to
+        build and share your game is quite magical, and with all amazing things, this
+        can take some time. \n\nPlease be patient as your project transforms and finds
+        its home on the web.\n\nClick <b>Start</b> below to begin.\x03"
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews: []
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  m_NextButton: Start
+  m_DoneButton: Done
+  m_CompletedSound: {fileID: 0}
+  m_autoAdvance: 0

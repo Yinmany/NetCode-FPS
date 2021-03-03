@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579f019eb5d26450982c6ae506c6c3ff, type: 3}
+  m_Name: Tutorial Project Settings
+  m_EditorClassIdentifier: 
+  m_InitialScene: {fileID: 102900000, guid: d794a2ef8ba31d847ad3c19d03e2ddb9, type: 3}
+  m_RestoreDefaultAssetsOnTutorialReload: 0
+  m_UseLegacyStartupBehavior: 0
+  m_StartupTutorial: {fileID: 0}
+  m_TutorialStyle: {fileID: 0}

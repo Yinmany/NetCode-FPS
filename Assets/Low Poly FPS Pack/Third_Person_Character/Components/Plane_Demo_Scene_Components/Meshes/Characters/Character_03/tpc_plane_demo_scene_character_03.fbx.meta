@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 849522a9e446d5641968a26bac50a56f
+timeCreated: 1566283657
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Character_03
+    100002: chest
+    100004: f_index_01_L
+    100006: f_index_01_R
+    100008: f_index_02_L
+    100010: f_index_02_R
+    100012: f_index_03_L
+    100014: f_index_03_R
+    100016: f_middle_01_L
+    100018: f_middle_01_R
+    100020: f_middle_02_L
+    100022: f_middle_02_R
+    100024: f_middle_03_L
+    100026: f_middle_03_R
+    100028: foot_L
+    100030: foot_R
+    100032: goggles.000
+    100034: hand_L
+    100036: hand_R
+    100038: head
+    100040: headset.000
+    100042: heel_L
+    100044: heel_R
+    100046: helmet.000
+    100048: hips
+    100050: lower_arm_L
+    100052: lower_arm_R
+    100054: lower_leg_L
+    100056: lower_leg_R
+    100058: neck
+    100060: root
+    100062: shoulder_L
+    100064: shoulder_R
+    100066: spine
+    100068: third_person_character.002
+    100070: thumb_01_L
+    100072: thumb_01_R
+    100074: thumb_02_L
+    100076: thumb_02_R
+    100078: thumb_03_L
+    100080: thumb_03_R
+    100082: toe_L
+    100084: toe_R
+    100086: //RootNode
+    100088: upper_arm_L
+    100090: upper_arm_R
+    100092: upper_leg_L
+    100094: upper_leg_R
+    400000: Character_03
+    400002: chest
+    400004: f_index_01_L
+    400006: f_index_01_R
+    400008: f_index_02_L
+    400010: f_index_02_R
+    400012: f_index_03_L
+    400014: f_index_03_R
+    400016: f_middle_01_L
+    400018: f_middle_01_R
+    400020: f_middle_02_L
+    400022: f_middle_02_R
+    400024: f_middle_03_L
+    400026: f_middle_03_R
+    400028: foot_L
+    400030: foot_R
+    400032: goggles.000
+    400034: hand_L
+    400036: hand_R
+    400038: head
+    400040: headset.000
+    400042: heel_L
+    400044: heel_R
+    400046: helmet.000
+    400048: hips
+    400050: lower_arm_L
+    400052: lower_arm_R
+    400054: lower_leg_L
+    400056: lower_leg_R
+    400058: neck
+    400060: root
+    400062: shoulder_L
+    400064: shoulder_R
+    400066: spine
+    400068: third_person_character.002
+    400070: thumb_01_L
+    400072: thumb_01_R
+    400074: thumb_02_L
+    400076: thumb_02_R
+    400078: thumb_03_L
+    400080: thumb_03_R
+    400082: toe_L
+    400084: toe_R
+    400086: //RootNode
+    400088: upper_arm_L
+    400090: upper_arm_R
+    400092: upper_leg_L
+    400094: upper_leg_R
+    4300000: third_person_character.002
+    4300002: goggles.000
+    4300004: headset.000
+    4300006: helmet.000
+    7400000: demo_character_03
+    9500000: //RootNode
+    13700000: goggles.000
+    13700002: headset.000
+    13700004: helmet.000
+    13700006: third_person_character.002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: demo_character_03
+      takeName: Character_03|_character03
+      firstFrame: 0
+      lastFrame: 1137
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

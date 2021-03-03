@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: d4c6e776733ed444c81b0b76a8610f82
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bot_Cap_C_Jnt
+    100004: Bot_L_Wing01_Jnt
+    100006: Bot_L_Wing02_Jnt
+    100008: Bot_L_Wing03_Jnt_End
+    100010: Bot_R_Wing01_Jnt
+    100012: Bot_R_Wing02_Jnt
+    100014: Bot_R_Wing03_Jnt_End
+    100016: EyeBall_C_Jnt
+    100018: Front_Panel_C_Jnt
+    100020: Front_Panel_C_Jnt_End
+    100022: IrisBlade_C_Jnt
+    100024: Robot_FKRoot_C_Jnt
+    100026: Robot_Root_C_Jnt
+    100028: Top_Cap_C_Jnt
+    100030: Top_L_Ear01_Jnt
+    100032: Top_L_Ear02_Jnt
+    100034: Top_R_Ear01_Jnt
+    100036: Top_R_Ear02_Jnt
+    400000: //RootNode
+    400002: Bot_Cap_C_Jnt
+    400004: Bot_L_Wing01_Jnt
+    400006: Bot_L_Wing02_Jnt
+    400008: Bot_L_Wing03_Jnt_End
+    400010: Bot_R_Wing01_Jnt
+    400012: Bot_R_Wing02_Jnt
+    400014: Bot_R_Wing03_Jnt_End
+    400016: EyeBall_C_Jnt
+    400018: Front_Panel_C_Jnt
+    400020: Front_Panel_C_Jnt_End
+    400022: IrisBlade_C_Jnt
+    400024: Robot_FKRoot_C_Jnt
+    400026: Robot_Root_C_Jnt
+    400028: Top_Cap_C_Jnt
+    400030: Top_L_Ear01_Jnt
+    400032: Top_L_Ear02_Jnt
+    400034: Top_R_Ear01_Jnt
+    400036: Top_R_Ear02_Jnt
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Robot_Root_C_Jnt
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 8e64c7aa328349d4ea713298f19a414f,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

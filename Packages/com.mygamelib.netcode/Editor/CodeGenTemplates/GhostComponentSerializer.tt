@@ -1,0 +1,142 @@
+<#@ include file="CommonHeader.tt"#>
+<#@ parameter name="m" type="MyGameLib.NetCode.Editor.CommonT4Info"#>
+using System;
+using MyGameLib.NetCode;
+using Unity.Burst;
+using Unity.Collections.LowLevel.Unsafe;
+using Unity.Entities;
+using Unity.Mathematics;
+using Unity.Networking.Transport;
+using AOT;
+
+using <#=m.CurNamespace #>;
+
+namespace <#=m.ToNamespace #>.Generated
+{
+    [BurstCompile]
+    public struct <#=m.TypeName #>Serializer
+    {
+        public static GhostComponentSerializer Serializer;
+
+        static <#=m.TypeName #>Serializer()
+        {
+            Serializer = new GhostComponentSerializer
+            {
+                IsUpdateValue = <#=m.IsUpdateValue #>,
+                SendType = GhostSendType.<#=m.SendType #>,
+                ComponentType = ComponentType.ReadWrite<<#=m.TypeName #>>(),
+                ComponentSize = UnsafeUtility.SizeOf<<#=m.TypeName #>>(),
+                DataSize = UnsafeUtility.SizeOf<Snapshot>(),
+                CopyToSnapshot =
+                    new PortableFunctionPointer<GhostComponentSerializer.CopyToSnapshotDelegate>(CopyToSnapshot),
+                CopyFromSnapshot =
+                    new PortableFunctionPointer<GhostComponentSerializer.CopyFromSnapshotDelegate>(CopyFromSnapshot),
+                Serialize = new PortableFunctionPointer<GhostComponentSerializer.SerializeDelegate>(Serialize),
+                Deserialize = new PortableFunctionPointer<GhostComponentSerializer.DeserializeDelegate>(Deserialize),
+                RestoreFromBackup =
+                    new PortableFunctionPointer<GhostComponentSerializer.RestoreFromBackupDelegate>(RestoreFromBackup)
+            };
+        }
+
+        struct Snapshot
+        {
+<#
+    foreach (var field in m.Fields)
+    {
+        WriteLine3($"public {field.TypeName} {field.Name};");
+    }
+#>
+        }
+
+        [BurstCompile]
+        [MonoPInvokeCallback(typeof(GhostComponentSerializer.CopyToSnapshotDelegate))]
+        static void CopyToSnapshot(IntPtr compPtr, IntPtr dataPtr)
+        {
+            ref <#=m.TypeName #> comp = ref GhostComponentSerializer.TypeCast<<#=m.TypeName #>>(compPtr);
+            ref Snapshot snapshot = ref GhostComponentSerializer.TypeCast<Snapshot>(dataPtr);
+
+<#
+    foreach (var field in m.Fields)
+    {
+        WriteLine3($"snapshot.{field.Name} = comp.{field.Name};");
+    }
+#>
+        }
+
+        [BurstCompile]
+        [MonoPInvokeCallback(typeof(GhostComponentSerializer.CopyFromSnapshotDelegate))]
+        static void CopyFromSnapshot(IntPtr compPtr, IntPtr dataPtr, int offset)
+        {
+            ref <#=m.TypeName #> comp = ref GhostComponentSerializer.TypeCast<<#=m.TypeName #>>(compPtr);
+            ref SnapshotData.DataAtTick dataAtTick =
+                ref GhostComponentSerializer.TypeCast<SnapshotData.DataAtTick>(dataPtr);
+
+            // 不管需不需要插值，这个数据都是需要的。
+            ref Snapshot after = ref GhostComponentSerializer.TypeCast<Snapshot>(dataAtTick.SnapshotAfter, offset);
+
+<#
+    if (m.IsUpdateValue != "true")
+    {
+        WriteLine3(
+            $"ref Snapshot before = ref GhostComponentSerializer.TypeCast<Snapshot>(dataAtTick.SnapshotBefore, offset);");
+    }
+
+    foreach (var field in m.Fields)
+    {
+        if (m.IsUpdateValue == "true" || field.Interpolate == false)
+        {
+            WriteLine3($"comp.{field.Name} = after.{field.Name};");
+        }
+        else
+        {
+            WriteLine3(
+                $"comp.{field.Name} = {field.InterpolateMethodStr}(before.{field.Name}, after.{field.Name}, dataAtTick.InterpolationFactor);");
+        }
+    }
+#>
+        }
+
+        [BurstCompile]
+        [MonoPInvokeCallback(typeof(GhostComponentSerializer.RestoreFromBackupDelegate))]
+        static void RestoreFromBackup(IntPtr compPtr, IntPtr backupData)
+        {
+            ref <#=m.TypeName #> comp = ref GhostComponentSerializer.TypeCast<<#=m.TypeName #>>(compPtr);
+            ref Snapshot snapshot = ref GhostComponentSerializer.TypeCast<Snapshot>(backupData);
+
+<#
+    foreach (var field in m.Fields)
+    {
+        WriteLine3($"comp.{field.Name} = snapshot.{field.Name};");
+    }
+#>
+        }
+
+        [BurstCompile]
+        [MonoPInvokeCallback(typeof(GhostComponentSerializer.SerializeDelegate))]
+        static void Serialize(IntPtr dataPtr, ref DataStreamWriter writer,
+            ref NetworkCompressionModel compressionModel)
+        {
+            ref Snapshot snapshot = ref GhostComponentSerializer.TypeCast<Snapshot>(dataPtr);
+<#
+    foreach (var field in m.Fields)
+    {
+        WriteLine3($"writer.WritePacked{field.TypeName1}(snapshot.{field.Name}, compressionModel);");
+    }
+#>
+        }
+
+        [BurstCompile]
+        [MonoPInvokeCallback(typeof(GhostComponentSerializer.DeserializeDelegate))]
+        static void Deserialize(IntPtr dataPtr, ref DataStreamReader reader,
+            ref NetworkCompressionModel compressionModel)
+        {
+            ref Snapshot snapshot = ref GhostComponentSerializer.TypeCast<Snapshot>(dataPtr);
+<#
+    foreach (var field in m.Fields)
+    {
+        WriteLine3($"snapshot.{field.Name} = reader.ReadPacked{field.TypeName1}(compressionModel);");
+    }
+#>
+        }
+    }
+}

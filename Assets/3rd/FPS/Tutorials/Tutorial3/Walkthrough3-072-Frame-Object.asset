@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Walkthrough3-072-Frame-Object
+  m_EditorClassIdentifier: 
+  m_SectionTitle: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 7
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 32900000, guid: 391160322e3334e87987cb97f1125c42, type: 3}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+    - m_Type: 0
+      m_Summary: 
+      m_Text: "<b><size=14>Frame Level Object</size></b>\n\nLet\u2019s frame the <b>HighStep</b>
+        GameObject in the <b>Scene View</b> so we can move it easier."
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+    - m_Type: 1
+      m_Summary: Frame the HighStep GameObject
+      m_Text: Ensure that the HighStep Prefab is still selected in the hierarchy,
+        and with your cursor over the Scene view, go to <b>Edit > Frame selected</b>
+        or Press <b>F</b> on the keyboard to frame the Prefab.
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items:
+        - type:
+            m_TypeName: Unity.InteractiveTutorials.FrameSelectedCriterion, Unity.InteractiveTutorials.Core,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          criterion: {fileID: 114014843029059974}
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+  m_CameraSettings:
+    m_CameraMode: 1
+    m_FocusMode: 1
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  m_NextButton: Next
+  m_DoneButton: Done
+  m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
+  m_autoAdvance: 1
+--- !u!114 &114014843029059974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065f6938014794cff8ac3d1382107ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectReferences:
+    m_Items:
+    - m_SceneObjectReference:
+        m_SceneGuid: d794a2ef8ba31d847ad3c19d03e2ddb9
+        m_GameObjectGuid: 0f096871-5e52-4e48-88a1-3dc5adb8e7ea
+        m_SerializedComponentType:
+          m_TypeName: 
+        m_ComponentIndex: 0
+        m_AssetObject: {fileID: 0}
+        m_Prefab: {fileID: 0}
+      m_FutureObjectReference: {fileID: 0}

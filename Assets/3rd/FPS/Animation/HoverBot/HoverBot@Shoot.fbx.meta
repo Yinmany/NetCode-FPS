@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 99dcd53d86db4fc4b813a3d1db9e97e4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Blades_Ctrl
+    100004: Blades_Grp
+    100006: Bot_Ctrl
+    100008: Bot_Grp
+    100010: Bot_L_Wing01_Ctrl
+    100012: Bot_L_Wing01_Grp
+    100014: Bot_L_Wing02_Ctrl
+    100016: Bot_L_Wing02_Grp
+    100018: Bot_R_Wing01_Ctrl
+    100020: Bot_R_Wing01_Grp
+    100022: Bot_R_Wing02_Ctrl
+    100024: Bot_R_Wing02_Grp
+    100026: EyeBall_Ctrl
+    100028: EyeBall_Grp
+    100030: Front_Panel_Ctrl
+    100032: Front_Panel_Grp
+    100034: Top_Ctrl
+    100036: Top_Grp
+    100038: Top_L_Ear01_Ctrl
+    100040: Top_L_Ear01_Grp
+    100042: Top_L_Ear02_Ctrl
+    100044: Top_L_Ear02_Grp
+    100046: Top_R_Ear01_Ctrl
+    100048: Top_R_Ear01_Grp
+    100050: Top_R_Ear02_Ctrl
+    100052: Top_R_Ear02_Grp
+    100054: Bot_Cap_C_Jnt
+    100056: Bot_L_Wing01_Jnt
+    100058: Bot_L_Wing02_Jnt
+    100060: Bot_L_Wing03_Jnt_End
+    100062: Bot_R_Wing01_Jnt
+    100064: Bot_R_Wing02_Jnt
+    100066: Bot_R_Wing03_Jnt_End
+    100068: EyeBall_C_Jnt
+    100070: Front_Panel_C_Jnt
+    100072: Front_Panel_C_Jnt_End
+    100074: IrisBlade_C_Jnt
+    100076: Robot_FKRoot_C_Jnt
+    100078: Robot_Root_C_Jnt
+    100080: Top_Cap_C_Jnt
+    100082: Top_L_Ear01_Jnt
+    100084: Top_L_Ear02_Jnt
+    100086: Top_R_Ear01_Jnt
+    100088: Top_R_Ear02_Jnt
+    400000: //RootNode
+    400002: Blades_Ctrl
+    400004: Blades_Grp
+    400006: Bot_Ctrl
+    400008: Bot_Grp
+    400010: Bot_L_Wing01_Ctrl
+    400012: Bot_L_Wing01_Grp
+    400014: Bot_L_Wing02_Ctrl
+    400016: Bot_L_Wing02_Grp
+    400018: Bot_R_Wing01_Ctrl
+    400020: Bot_R_Wing01_Grp
+    400022: Bot_R_Wing02_Ctrl
+    400024: Bot_R_Wing02_Grp
+    400026: EyeBall_Ctrl
+    400028: EyeBall_Grp
+    400030: Front_Panel_Ctrl
+    400032: Front_Panel_Grp
+    400034: Top_Ctrl
+    400036: Top_Grp
+    400038: Top_L_Ear01_Ctrl
+    400040: Top_L_Ear01_Grp
+    400042: Top_L_Ear02_Ctrl
+    400044: Top_L_Ear02_Grp
+    400046: Top_R_Ear01_Ctrl
+    400048: Top_R_Ear01_Grp
+    400050: Top_R_Ear02_Ctrl
+    400052: Top_R_Ear02_Grp
+    400054: Bot_Cap_C_Jnt
+    400056: Bot_L_Wing01_Jnt
+    400058: Bot_L_Wing02_Jnt
+    400060: Bot_L_Wing03_Jnt_End
+    400062: Bot_R_Wing01_Jnt
+    400064: Bot_R_Wing02_Jnt
+    400066: Bot_R_Wing03_Jnt_End
+    400068: EyeBall_C_Jnt
+    400070: Front_Panel_C_Jnt
+    400072: Front_Panel_C_Jnt_End
+    400074: IrisBlade_C_Jnt
+    400076: Robot_FKRoot_C_Jnt
+    400078: Robot_Root_C_Jnt
+    400080: Top_Cap_C_Jnt
+    400082: Top_L_Ear01_Jnt
+    400084: Top_L_Ear02_Jnt
+    400086: Top_R_Ear01_Jnt
+    400088: Top_R_Ear02_Jnt
+    7400000: Shoot
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 4.5
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Robot_Root_C_Jnt
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 8e64c7aa328349d4ea713298f19a414f,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

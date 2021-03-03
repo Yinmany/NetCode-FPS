@@ -1,0 +1,16 @@
+Asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+A. Roboto Black
+Apache 2.0
+January 2004
+
+B. Roboto Regular
+Apache 2.0
+January 2004
+
+C. EmojiOne
+Premium License Agreement
+Version 1.6 - June 21, 2018
+
+D. LiberationSans
+LiberationSans OFL
+Version 1.1 2007

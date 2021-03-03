@@ -1,0 +1,31 @@
+{
+    "name": "MyGameLib.NetCode.EditorTests",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Tests",
+        "Unity.Collections",
+        "Unity.Jobs",
+        "Unity.Burst",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "MyGameLib.NetCode",
+        "Unity.Networking.Transport",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

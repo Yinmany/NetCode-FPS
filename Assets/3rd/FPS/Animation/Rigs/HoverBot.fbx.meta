@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 8e64c7aa328349d4ea713298f19a414f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bot_Cap_C_Jnt
+    100004: Bot_L_Wing01_Jnt
+    100006: Bot_L_Wing02_Jnt
+    100008: Bot_L_Wing03_Jnt_End
+    100010: Bot_R_Wing01_Jnt
+    100012: Bot_R_Wing02_Jnt
+    100014: Bot_R_Wing03_Jnt_End
+    100016: Bottom
+    100018: EyeBall
+    100020: EyeBall_C_Jnt
+    100022: Front_Panel_C_Jnt
+    100024: Front_Panel_C_Jnt_End
+    100026: IrisBlade_C_Jnt
+    100028: Robot_FKRoot_C_Jnt
+    100030: Robot_Root_C_Jnt
+    100032: Top
+    100034: Top_Cap_C_Jnt
+    100036: Top_L_Ear01_Jnt
+    100038: Top_L_Ear02_Jnt
+    100040: Top_R_Ear01_Jnt
+    100042: Top_R_Ear02_Jnt
+    100044: Blades_Ctrl
+    100046: Blades_Grp
+    100048: Bot_Ctrl
+    100050: Bot_Grp
+    100052: Bot_L_Wing01_Ctrl
+    100054: Bot_L_Wing01_Grp
+    100056: Bot_L_Wing02_Ctrl
+    100058: Bot_L_Wing02_Grp
+    100060: Bot_R_Wing01_Ctrl
+    100062: Bot_R_Wing01_Grp
+    100064: Bot_R_Wing02_Ctrl
+    100066: Bot_R_Wing02_Grp
+    100068: EyeBall_Ctrl
+    100070: EyeBall_Grp
+    100072: Front_Panel_Ctrl
+    100074: Front_Panel_Grp
+    100076: Master1
+    100078: Top_Ctrl
+    100080: Top_Grp
+    100082: Top_L_Ear01_Ctrl
+    100084: Top_L_Ear01_Grp
+    100086: Top_L_Ear02_Ctrl
+    100088: Top_L_Ear02_Grp
+    100090: Top_R_Ear01_Ctrl
+    100092: Top_R_Ear01_Grp
+    100094: Top_R_Ear02_Ctrl
+    100096: Top_R_Ear02_Grp
+    400000: //RootNode
+    400002: Bot_Cap_C_Jnt
+    400004: Bot_L_Wing01_Jnt
+    400006: Bot_L_Wing02_Jnt
+    400008: Bot_L_Wing03_Jnt_End
+    400010: Bot_R_Wing01_Jnt
+    400012: Bot_R_Wing02_Jnt
+    400014: Bot_R_Wing03_Jnt_End
+    400016: Bottom
+    400018: EyeBall
+    400020: EyeBall_C_Jnt
+    400022: Front_Panel_C_Jnt
+    400024: Front_Panel_C_Jnt_End
+    400026: IrisBlade_C_Jnt
+    400028: Robot_FKRoot_C_Jnt
+    400030: Robot_Root_C_Jnt
+    400032: Top
+    400034: Top_Cap_C_Jnt
+    400036: Top_L_Ear01_Jnt
+    400038: Top_L_Ear02_Jnt
+    400040: Top_R_Ear01_Jnt
+    400042: Top_R_Ear02_Jnt
+    400044: Blades_Ctrl
+    400046: Blades_Grp
+    400048: Bot_Ctrl
+    400050: Bot_Grp
+    400052: Bot_L_Wing01_Ctrl
+    400054: Bot_L_Wing01_Grp
+    400056: Bot_L_Wing02_Ctrl
+    400058: Bot_L_Wing02_Grp
+    400060: Bot_R_Wing01_Ctrl
+    400062: Bot_R_Wing01_Grp
+    400064: Bot_R_Wing02_Ctrl
+    400066: Bot_R_Wing02_Grp
+    400068: EyeBall_Ctrl
+    400070: EyeBall_Grp
+    400072: Front_Panel_Ctrl
+    400074: Front_Panel_Grp
+    400076: Master1
+    400078: Top_Ctrl
+    400080: Top_Grp
+    400082: Top_L_Ear01_Ctrl
+    400084: Top_L_Ear01_Grp
+    400086: Top_L_Ear02_Ctrl
+    400088: Top_L_Ear02_Grp
+    400090: Top_R_Ear01_Ctrl
+    400092: Top_R_Ear01_Grp
+    400094: Top_R_Ear02_Ctrl
+    400096: Top_R_Ear02_Grp
+    2100000: lambert3
+    2100002: 'Material #39'
+    2100004: Default_Material
+    2100006: HoverBot_Body
+    2100008: HoverBot_Lens
+    2100010: HoverBot_Eye
+    4300000: Top
+    4300002: EyeBall
+    4300004: Bottom
+    9500000: //RootNode
+    13700000: Bottom
+    13700002: EyeBall
+    13700004: Top
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HoverBot_Body
+    second: {fileID: 2100000, guid: c3dc5a90c49c99142999f85d6b419d80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HoverBot_Eye
+    second: {fileID: 2100000, guid: e6fdfd4e017234d43ac116abee8fa90a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HoverBot_Lens
+    second: {fileID: 2100000, guid: e203bd207390a174692e7fe5d381d0aa, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Robot_Root_C_Jnt
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

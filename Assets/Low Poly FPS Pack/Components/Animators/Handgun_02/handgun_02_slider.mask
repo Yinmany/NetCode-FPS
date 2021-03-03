@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: handgun_02_slider
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/arm_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L/hand_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L/hand_L/finger_01_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L/hand_L/finger_01_L/finger_02_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L/hand_L/finger_01_L/finger_02_L/finger_03_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L/hand_L/middle_finger_01_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L/hand_L/middle_finger_01_L/middle_finger_02_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L/hand_L/middle_finger_01_L/middle_finger_02_L/middle_finger_03_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L/hand_L/thumb_01_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L/hand_L/thumb_01_L/thumb_02_L
+    m_Weight: 0
+  - m_Path: Armature/arm_L/lower_arm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+    m_Weight: 0
+  - m_Path: Armature/arm_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R/hand_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R/hand_R/finger_01_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R/hand_R/finger_01_R/finger_02_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R/hand_R/finger_01_R/finger_02_R/finger_03_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R/hand_R/middle_finger_01_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R/hand_R/middle_finger_01_R/middle_finger_02_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R/hand_R/middle_finger_01_R/middle_finger_02_R/middle_finger_03_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R/hand_R/thumb_01_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R/hand_R/thumb_01_R/thumb_02_R
+    m_Weight: 0
+  - m_Path: Armature/arm_R/lower_arm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+    m_Weight: 0
+  - m_Path: Armature/arm_target_L
+    m_Weight: 0
+  - m_Path: Armature/arm_target_R
+    m_Weight: 0
+  - m_Path: Armature/camera
+    m_Weight: 0
+  - m_Path: Armature/IK_arm_L
+    m_Weight: 0
+  - m_Path: Armature/IK_arm_R
+    m_Weight: 0
+  - m_Path: Armature/knife
+    m_Weight: 0
+  - m_Path: Armature/mag
+    m_Weight: 0
+  - m_Path: Armature/weapon
+    m_Weight: 0
+  - m_Path: Armature/weapon/slider
+    m_Weight: 1
+  - m_Path: arms
+    m_Weight: 0
+  - m_Path: arms/handgun_01
+    m_Weight: 0
+  - m_Path: arms/handgun_01/bullet
+    m_Weight: 0
+  - m_Path: arms/handgun_01/handgun_01_iron_sights
+    m_Weight: 0
+  - m_Path: arms/handgun_01/scope_02
+    m_Weight: 0
+  - m_Path: arms/handgun_01/scope_03
+    m_Weight: 0
+  - m_Path: arms/handgun_01/silencer
+    m_Weight: 0
+  - m_Path: arms/knife 1
+    m_Weight: 0

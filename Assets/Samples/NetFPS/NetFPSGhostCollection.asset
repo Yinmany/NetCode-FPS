@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f963040b8f4a31bf9df0ddc6769640, type: 3}
+  m_Name: NetFPSGhostCollection
+  m_EditorClassIdentifier: 
+  ClassFile: 
+  ClassName: 
+  ClassNamespace: 
+  Prefabs:
+  - {fileID: 8537406588068161975, guid: 0c7959e4a5c470d4786d99fe2999d7ec, type: 3}
+  Ghosts:
+  - prefab: {fileID: -8579928599044162747, guid: e23d7cd694bcf3b47bf2590b3270d542,
+      type: 3}
+    enabled: 1
+  - prefab: {fileID: 560444985225350955, guid: 57d74169f84d48e44a169eea98b82e86, type: 3}
+    enabled: 1
+  - prefab: {fileID: 7406433827202333440, guid: f4c92cb7146f29d4c8e4b9392ff573c5,
+      type: 3}
+    enabled: 1
+  - prefab: {fileID: -5136150837811505243, guid: ed32fd9665805a248954e2cf622b53fe,
+      type: 3}
+    enabled: 1

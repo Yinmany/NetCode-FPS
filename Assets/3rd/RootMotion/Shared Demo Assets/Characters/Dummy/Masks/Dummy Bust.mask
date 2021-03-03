@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dummy Bust
+  m_Mask: 01000000000000000000000001000000010000000000000000000000000000000000000001000000010000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: slb
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/leftLeg1_HiResUpperLeg
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/leftLeg1_HiResUpperLeg/leftLeg1_HiResUpperLegTwist
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/leftLeg1_HiResUpperLeg/leftLeg1_HiResUpperLegTwist/leftLeg1_HiResLowerLeg
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/leftLeg1_HiResUpperLeg/leftLeg1_HiResUpperLegTwist/leftLeg1_HiResLowerLeg/leftLeg1_HiResLowerLegTwist
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/leftLeg1_HiResUpperLeg/leftLeg1_HiResUpperLegTwist/leftLeg1_HiResLowerLeg/leftLeg1_HiResLowerLegTwist/leftLeg1_HiResFoot
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/leftLeg1_HiResUpperLeg/leftLeg1_HiResUpperLegTwist/leftLeg1_HiResLowerLeg/leftLeg1_HiResLowerLegTwist/leftLeg1_HiResFoot/leftLeg1_HiResToe
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/rightLeg1_HiResUpperLeg
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/rightLeg1_HiResUpperLeg/rightLeg1_HiResUpperLegTwist
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/rightLeg1_HiResUpperLeg/rightLeg1_HiResUpperLegTwist/rightLeg1_HiResLowerLeg
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/rightLeg1_HiResUpperLeg/rightLeg1_HiResUpperLegTwist/rightLeg1_HiResLowerLeg/rightLeg1_HiResLowerLegTwist
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/rightLeg1_HiResUpperLeg/rightLeg1_HiResUpperLegTwist/rightLeg1_HiResLowerLeg/rightLeg1_HiResLowerLegTwist/rightLeg1_HiResFoot
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResPelvis/rightLeg1_HiResUpperLeg/rightLeg1_HiResUpperLegTwist/rightLeg1_HiResLowerLeg/rightLeg1_HiResLowerLegTwist/rightLeg1_HiResFoot/rightLeg1_HiResToe
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/head1_neck
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/head1_neck/head1_head
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/head1_neck/head1_head/joint1
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/head1_neck/head1_head/joint1/joint2
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/head1_neck/head1_head/joint1/joint2/joint3
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/head1_neck/head1_head/joint1/joint2/joint3/joint4
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/L
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger1_MetaCarpel
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger1_MetaCarpel/leftFinger1_Joint1
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger1_MetaCarpel/leftFinger1_Joint1/leftFinger1_Joint2
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger1_MetaCarpel/leftFinger1_Joint1/leftFinger1_Joint2/leftFinger1_Joint3
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger2_MetaCarpel
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger2_MetaCarpel/leftFinger2_Joint1
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger2_MetaCarpel/leftFinger2_Joint1/leftFinger2_Joint2
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger2_MetaCarpel/leftFinger2_Joint1/leftFinger2_Joint2/leftFinger2_Joint3
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftThumb1_Joint1
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftThumb1_Joint1/leftThumb1_Joint2
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftThumb1_Joint1/leftThumb1_Joint2/leftThumb1_Joint3
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/R
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger1_MetaCarpel
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger1_MetaCarpel/rightFinger1_Joint1
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger1_MetaCarpel/rightFinger1_Joint1/rightFinger1_Joint2
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger1_MetaCarpel/rightFinger1_Joint1/rightFinger1_Joint2/rightFinger1_Joint3
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger2_MetaCarpel
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger2_MetaCarpel/rightFinger2_Joint1
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger2_MetaCarpel/rightFinger2_Joint1/rightFinger2_Joint2
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger2_MetaCarpel/rightFinger2_Joint1/rightFinger2_Joint2/rightFinger2_Joint3
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightThumb1_Joint1
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightThumb1_Joint1/rightThumb1_Joint2
+    m_Weight: 1
+  - m_Path: TSMGWorldJoint/spine1_loResSpine1/spine1_loResSpine2/spine1_loResSpine3/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightThumb1_Joint1/rightThumb1_Joint2/rightThumb1_Joint3
+    m_Weight: 1

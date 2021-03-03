@@ -1,0 +1,40 @@
+<#@ include file="CommonHeader.tt"#>
+<#@ parameter name="m" type="MyGameLib.NetCode.Editor.CommonT4Info"#>
+
+using MyGameLib.NetCode;
+using Unity.Networking.Transport;
+using <#=m.CurNamespace #>;
+
+namespace <#=m.ToNamespace #>.Generated
+{
+    public struct <#=m.TypeName #>Serializer : ICommandDataSerializer<<#=m.TypeName #>>
+    {
+        public void Serialize(ref DataStreamWriter writer, in <#=m.TypeName #> data)
+        {
+<#
+    foreach (var field in m.Fields)
+    {
+        WriteLine3($"writer.Write{field.TypeName1}(data.{field.Name});");
+    }
+#>
+        }
+
+        public void Deserialize(ref DataStreamReader reader, ref <#=m.TypeName #> data)
+        {
+<#
+    foreach (var field in  m.Fields)
+    {
+        WriteLine3($"data.{field.Name} = reader.Read{field.TypeName1}();");
+    }
+#>
+        }
+    }
+
+    public class <#=m.TypeName #>SendSystem : CommandSendSystem<<#=m.TypeName #>Serializer, <#=m.TypeName #>>
+    {
+    }
+
+    public class <#=m.TypeName #>RecvSystem : CommandRecvSystem<<#=m.TypeName #>Serializer, <#=m.TypeName #>>
+    {
+    }  
+}

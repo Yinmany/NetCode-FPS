@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
+  m_Name: Walkthrough3-019-Select-NavMesh
+  m_EditorClassIdentifier: 
+  m_SectionTitle: 
+  m_Paragraphs:
+    m_Items:
+    - m_Type: 7
+      m_Summary: 
+      m_Text: 
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 32900000, guid: 79dadb0d7a0c143db8700a2c64e462c8, type: 3}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+    - m_Type: 0
+      m_Summary: 
+      m_Text: "<b><size=14>Update Level Navigation Mesh</size></b>\n\nWhen you are
+        making changes to your level you need to update it's <b>Navigation Mesh</b>
+        to make enemies detect the updated level. \n\nThis action is called <b>Nav
+        Mesh Baking</b> and it is done on a Navigation Mesh GameObject.\n\nFirst,
+        let's select that GameObject in Hiearchy window."
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items: []
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.NavMeshEditorWindow, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
+    - m_Type: 1
+      m_Summary: Select NavMeshSurface
+      m_Text: Select the NavMeshSurface GameObject in the Hierarchy view.
+      m_TutorialButtonText: 
+      m_Tutorial: {fileID: 0}
+      m_Icons:
+        m_Items: []
+      m_Image: {fileID: 0}
+      m_Video: {fileID: 0}
+      m_CriteriaCompletion: 0
+      m_Criteria:
+        m_Items:
+        - type:
+            m_TypeName: Unity.InteractiveTutorials.RequiredSelectionCriterion, Unity.InteractiveTutorials.Core,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          criterion: {fileID: 114046183933657202}
+      m_MaskingSettings:
+        m_MaskingEnabled: 1
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneHierarchyWindow, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls:
+          - m_SelectorMode: 0
+            m_GUIContent:
+              m_Text: NavMeshSurface
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: 
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
+  m_CameraSettings:
+    m_CameraMode: 0
+    m_FocusMode: 0
+    m_Orthographic: 0
+    m_Size: 0
+    m_Pivot: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0, w: 0}
+    m_FrameObject:
+      m_SceneGuid: 
+      m_GameObjectGuid: 
+      m_SerializedComponentType:
+        m_TypeName: 
+      m_ComponentIndex: 0
+      m_AssetObject: {fileID: 0}
+      m_Prefab: {fileID: 0}
+    m_Enabled: 0
+  m_NextButton: Next
+  m_DoneButton: Done
+  m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
+  m_autoAdvance: 1
+--- !u!114 &114046183933657202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255ef86cb95f04796b8e3b3f5b23efe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectReferences:
+    m_Items:
+    - m_SceneObjectReference:
+        m_SceneGuid: d794a2ef8ba31d847ad3c19d03e2ddb9
+        m_GameObjectGuid: 6f50059d-c3ce-4a13-92b1-35e816ee2b45
+        m_SerializedComponentType:
+          m_TypeName: 
+        m_ComponentIndex: 0
+        m_AssetObject: {fileID: 0}
+        m_Prefab: {fileID: 0}
+      m_FutureObjectReference: {fileID: 0}

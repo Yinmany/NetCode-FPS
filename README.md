@@ -1,5 +1,6 @@
 # NetCode-FPS
-多人FPS演示，该演示集成了许多现代网络代码技术以提高游戏质量。
+[Bilibli 车辆同步演示视频](https://www.bilibili.com/video/BV1TA411W7zt/)
+[Bilibli FPS同步演示视频(审核中)](https://www.bilibili.com/video/BV1ih411k7bS/)
 
 **特点**:
 * 客户端玩家预测

@@ -1,6 +1,6 @@
 # NetCode-FPS
 [Bilibli 车辆同步演示视频](https://www.bilibili.com/video/BV1TA411W7zt/)  
-[Bilibli FPS同步演示视频(审核中)](https://www.bilibili.com/video/BV1ih411k7bS/)
+[Bilibli FPS同步演示视频](https://www.bilibili.com/video/BV1ih411k7bS/)
 
 **特点**:
 * 客户端玩家预测
@@ -14,7 +14,7 @@
 * [Gabriel Gambetta Fast-Paced Multiplayer](https://www.gabrielgambetta.com/client-side-prediction-server-reconciliation.html)
 * [Overwatch Gameplay Architecture & Netcode](https://www.youtube.com/watch?v=W3aieHjyNvw)
 * https://www.gamedev.net/forums/topic/696756-command-frames-and-tick-synchronization/
-* Unity NetCode
+* [Unity NetCode](https://docs.unity3d.com/Packages/com.unity.netcode@0.5/changelog/CHANGELOG.html)
 
 ## 运行Demo
 
